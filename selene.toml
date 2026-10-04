@@ -1,0 +1,6 @@
+std = "roblox"
+
+[rules]
+# match the game's own style: several short statements per line, UDim2.new(0, x, 0, y) everywhere
+multiple_statements = "allow"
+roblox_manual_fromscale_or_fromoffset = "allow"

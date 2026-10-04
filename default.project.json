@@ -1,0 +1,27 @@
+{
+  "name": "BubbleShaders",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$ignoreUnknownInstances": true,
+      "BubbleShaders": {
+        "$path": "src/shared/BubbleShaders"
+      }
+    },
+    "ServerScriptService": {
+      "$ignoreUnknownInstances": true,
+      "BubbleShadersServer": {
+        "$path": "src/server/BubbleShadersServer.server.luau"
+      }
+    },
+    "StarterPlayer": {
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$ignoreUnknownInstances": true,
+        "BubbleShadersClient": {
+          "$path": "src/client/BubbleShadersClient"
+        }
+      }
+    }
+  }
+}
